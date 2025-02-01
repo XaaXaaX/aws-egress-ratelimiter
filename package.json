@@ -1,0 +1,40 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xaaxaax/aws-serverless-collecting-logs.git"
+  },
+  "scripts": {
+    "nx:clean:all": "nx run-many --target=prebuild --output-style static --skip-nx-cache",
+    "nx:test:all": "node --test --import tsx --experimental-strip-types",
+    "nx:build:all": "pnpm run nx:clean:all && nx run-many --target=build --output-style static --skip-nx-cache",
+    "nx:cdk:all": "nx run-many --target=cdk --output-style static --skip-nx-cache --require-approval never",
+    "nx:version:all": "nx release --skip-publish",
+    "affected:test": "nx affected --target=test --parallel=3",
+    "affected:build": "nx affected --target=build --parallel=3"
+  },
+  "devDependencies": {
+    "@nx/js": "^20.4.0",
+    "@types/aws-lambda": "^8.10.147",
+    "@types/node": "^22.13.0",
+    "@xaaxaax/cdk-core": "workspace:*",
+    "aws-cdk": "^2.177.0",
+    "aws-cdk-lib": "^2.177.0",
+    "cdk-nag": "^2.35.6",
+    "constructs": "^10.4.2",
+    "cross-env": "^7.0.3",
+    "dotenv-cli": "^7.3.0",
+    "esbuild": "^0.24.2",
+    "nx": "^20.4.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.21"
+  }
+}
