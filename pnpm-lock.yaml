@@ -31,8 +31,8 @@ importers:
         specifier: ^2.177.0
         version: 2.177.0(constructs@10.4.2)
       cdk-nag:
-        specifier: ^2.35.6
-        version: 2.35.6(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)
+        specifier: ^2.35.8
+        version: 2.35.8(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2)
       constructs:
         specifier: ^10.4.2
         version: 10.4.2
@@ -68,7 +68,7 @@ importers:
 
   packages/example-app: {}
 
-  packages/prequististe-app: {}
+  packages/prerequisite-app: {}
 
 packages:
 
@@ -1334,8 +1334,8 @@ packages:
   caniuse-lite@1.0.30001696:
     resolution: {integrity: sha512-pDCPkvzfa39ehJtJ+OwGT/2yvT2SbjfHhiIW2LWOAcMQ7BzwxT/XuyUp4OTOd0XFWA6BKw0JalnBHgSi5DGJBQ==}
 
-  cdk-nag@2.35.6:
-    resolution: {integrity: sha512-OemnCGLcsyhSSS4sCc79wg3FX5KCnD/iCcoWzynPPvHsP/ZSfYVlQpiHE6FnV9vIh5cSMqJZFJCcIWp12q2auA==}
+  cdk-nag@2.35.8:
+    resolution: {integrity: sha512-QedfME1YNw8Os7eBRVJ7Ev9mSlwnrqCIWW6L4MotfYsPIvXfCHE0k05sxv9JX/rcwNLD/q5n/TBrafn+wCW3RQ==}
     peerDependencies:
       aws-cdk-lib: ^2.156.0
       constructs: ^10.0.5
@@ -1682,6 +1682,10 @@ packages:
 
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
+    engines: {node: '>=6'}
+
+  import-fresh@3.3.1:
+    resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
     engines: {node: '>=6'}
 
   imurmurhash@0.1.4:
@@ -3172,7 +3176,7 @@ snapshots:
       espree: 10.3.0
       globals: 14.0.0
       ignore: 5.3.2
-      import-fresh: 3.3.0
+      import-fresh: 3.3.1
       js-yaml: 4.1.0
       minimatch: 3.1.2
       strip-json-comments: 3.1.1
@@ -3605,7 +3609,7 @@ snapshots:
 
   caniuse-lite@1.0.30001696: {}
 
-  cdk-nag@2.35.6(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2):
+  cdk-nag@2.35.8(aws-cdk-lib@2.177.0(constructs@10.4.2))(constructs@10.4.2):
     dependencies:
       aws-cdk-lib: 2.177.0(constructs@10.4.2)
       constructs: 10.4.2
@@ -3974,6 +3978,11 @@ snapshots:
   ignore@5.3.2: {}
 
   import-fresh@3.3.0:
+    dependencies:
+      parent-module: 1.0.1
+      resolve-from: 4.0.0
+
+  import-fresh@3.3.1:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0

@@ -22,7 +22,7 @@
     "@xaaxaax/cdk-core": "workspace:*",
     "aws-cdk": "^2.177.0",
     "aws-cdk-lib": "^2.177.0",
-    "cdk-nag": "^2.35.6",
+    "cdk-nag": "^2.35.8",
     "constructs": "^10.4.2",
     "cross-env": "^7.0.3",
     "dotenv-cli": "^7.3.0",
