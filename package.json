@@ -16,23 +16,23 @@
     "affected:build": "nx affected --target=build --parallel=3"
   },
   "devDependencies": {
-    "@nx/js": "^20.4.2",
+    "@nx/js": "^20.4.4",
     "@types/aws-lambda": "^8.10.147",
-    "@types/node": "^22.13.1",
+    "@types/node": "^22.13.4",
     "@xaaxaax/cdk-core": "workspace:*",
-    "aws-cdk": "^2.178.1",
-    "aws-cdk-lib": "^2.178.1",
-    "cdk-nag": "^2.35.14",
+    "aws-cdk": "^2.178.2",
+    "aws-cdk-lib": "^2.178.2",
+    "cdk-nag": "^2.35.21",
     "constructs": "^10.4.2",
     "cross-env": "^7.0.3",
     "dotenv-cli": "^7.3.0",
     "esbuild": "^0.25.0",
-    "nx": "^20.4.2",
+    "nx": "^20.4.4",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.23.0"
+    "typescript-eslint": "^8.24.0"
   },
   "dependencies": {
     "source-map-support": "^0.5.21"
