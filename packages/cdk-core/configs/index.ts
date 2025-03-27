@@ -2,7 +2,7 @@ import { EnvVariable, Config } from "../types";
 
 const defaultConfig: Config = {
   contextVariables: {
-    context: `logs-collector`,
+    context: `rate-limitter`,
     stage: 'unknown' as EnvVariable, 
     owner: 'operations',
     usage: 'EPHEMERAL',

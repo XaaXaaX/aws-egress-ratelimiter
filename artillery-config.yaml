@@ -1,0 +1,13 @@
+config:
+  target: "{{$processEnvironment.API_ENDPOINT}}"
+  phases:
+    - duration: 30
+      arrivalRate: 100
+      name: Sustained load
+scenarios:
+  - flow:
+      - post:
+          url: "/sfn"
+          json:
+            partner: "omid"
+      
