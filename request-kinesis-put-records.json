@@ -1,0 +1,13 @@
+{
+  "StreamName": "KinesisStreamsAsyncStack-Queue4A7E3555-b1AZug0cRwSW",
+  "Records": [
+      {
+          "Data": "eyJpZCI6ImRtUHZQU2x3RlpPVE9qZWZwdThtMiIsInN1YmplY3QiOiJvbWlkX3VzZXJfaWQiLCJ0aW1lIjoiMjAyNS0wMy0yM1QxNzoxMzozMiswMDowMCIsImRhdGEiOnsibmFtZSI6Im9taWQiLCJwcm9maWxlIjp7ImFnZSI6MzQsIm5pY2tuYW1lIjoib21pZCJ9fSwidHlwZSI6InVzZXIuc2lnbmVkdXAifQ==",
+          "PartitionKey": "omid_user_id"
+      },
+      {
+        "Data": "eyJpZCI6IjJkb2tDanhtUXZVazJicmpMdXVzMSIsInN1YmplY3QiOiJvbWlkX3VzZXJfaWQiLCJ0aW1lIjoiMjAyNS0wMy0yM1QxNzoxNDozMiswMDowMCIsImRhdGEiOnsibmFtZSI6Im9taWQiLCJhZ2UiOjQzLCJuaWNrbmFtZSI6InhhYXhhYXgiLCJwcmVmZXJlZF9jaGFubmVscyI6WyJFTUFJTCJdfSwidHlwZSI6InVzZXIucHJvZmlsZV91cGRhdGVkIn0=",
+        "PartitionKey": "omid_user_id"
+    }
+  ]
+}

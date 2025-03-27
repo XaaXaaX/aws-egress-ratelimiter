@@ -1,12 +1,38 @@
-# Boilerplate repo temlplate
+# Egress Rate Controlling Patterns
 
-To create a new repository from template simply select the template in repo creation page.
+This project is a collection of service related examples, illustrating how controlling the egress rate load while communicating over isolated and unaligned boundaries.
 
-To update an existing repo from a template follow follloing instructions
+## Useful Commands
+
+### SQS
 
 ```shell
- git remote add template https://github.com/XaaXaaX/new-project-boilerplate.git
- git fetch --all
- git merge template/main --allow-unrelated-histories
+  aws sqs send-message-batch --queue-url <QUEUE_URL> --entries file://request-sqs-send-message-batch.json
+```
 
+### DDB
+
+```shell
+aws dynamodb batch-write-item --request-items file://request-ddb-batch-write-items.json
+```
+
+### SNS
+
+```shell
+aws sns publish-batch \
+  --topic-arn <TOPIC_ARN> \
+  --publish-batch-request-entries file://request-sns-publish-batch.json
+
+```
+
+### EventBridge
+
+```shell
+aws events put-events --entries file://request-eb-put-records.json
+```
+
+### Kinesis
+
+```shell
+aws kinesis put-records --stream-name <STREAM_NAME> --cli-input-json file://request-kinesis-put-records.json
 ```

@@ -1,0 +1,17 @@
+[
+  {
+    "Source": "com.company.myservice",
+    "Detail": "{\r\n      \"id\":\"dmPvPSlwFZOTOjefpu8m2\",\r\n  \"subject\":\"omid_user_id\",\r\n     \"time\":\"2025-03-23T17:13:32+00:00\",\r\n      \"data\":{\r\n         \"name\":\"omid\",\r\n         \"profile\":{\r\n            \"age\":34,\r\n            \"nickname\":\"omid\"\r\n         }\r\n      },\r\n      \"type\":\"user.signedup\"\r\n   }",
+    "Resources": [
+      "resource1",
+      "resource2"
+    ],
+    "DetailType": "user.signedup",
+    "EventBusName": "arn:aws:events:eu-west-1:904233108557:event-bus/EventBridgeAsyncStackEventBusA340BD75"
+  },{
+    "Source": "com.company.myservice",
+    "Detail": "{\r\n      \"id\":\"2dokCjxmQvUk2brjLuus1\",\r\n  \"subject\":\"omid_user_id\",\r\n    \"time\":\"2025-03-23T17:14:32+00:00\",\r\n      \"data\":{\r\n         \"name\":\"omid\",\r\n         \"age\":43,\r\n         \"nickname\":\"xaaxaax\",\r\n     \"prefered_channels\": [ \"EMAIL\" ]},\r\n      \"type\":\"user.profile_updated\"\r\n   }",
+    "DetailType": "user.profile_updated",
+    "EventBusName": "arn:aws:events:eu-west-1:904233108557:event-bus/EventBridgeAsyncStackEventBusA340BD75"
+  }
+]
