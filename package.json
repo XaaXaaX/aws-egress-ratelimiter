@@ -16,21 +16,21 @@
     "affected:build": "nx affected --target=build --parallel=3"
   },
   "devDependencies": {
-    "@nx/js": "^20.4.6",
-    "@types/aws-lambda": "^8.10.147",
-    "@types/node": "^22.13.7",
+    "@nx/js": "^20.6.4",
+    "@types/aws-lambda": "^8.10.148",
+    "@types/node": "^22.13.14",
     "@xaaxaax/cdk-core": "workspace:*",
-    "aws-cdk": "^2.1001.0",
-    "aws-cdk-lib": "^2.182.0",
-    "cdk-nag": "^2.35.33",
+    "aws-cdk": "^2.1006.0",
+    "aws-cdk-lib": "^2.186.0",
+    "cdk-nag": "^2.35.57",
     "constructs": "^10.4.2",
-    "esbuild": "^0.24.2",
-    "nx": "^20.4.6",
+    "esbuild": "^0.25.1",
+    "nx": "^20.6.4",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
-    "typescript-eslint": "^8.26.0"
+    "typescript-eslint": "^8.28.0"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.775.0",
