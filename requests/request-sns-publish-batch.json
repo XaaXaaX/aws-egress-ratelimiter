@@ -1,0 +1,10 @@
+[{
+  "Id": "Test-0001-2015-09-16T140731Z",
+  "Subject": "Subject-Batch-From-File-1",
+  "Message": "{\r\n      \"id\":\"dmPvPSlwFZOTOjefpu8m2\",\r\n  \"subject\":\"omid_user_id\",\r\n     \"time\":\"2025-03-23T17:13:32+00:00\",\r\n      \"data\":{\r\n         \"name\":\"omid\",\r\n         \"profile\":{\r\n            \"age\":34,\r\n            \"nickname\":\"omid\"\r\n         }\r\n      },\r\n      \"type\":\"user.signedup\"\r\n   }"
+},
+{
+  "Id": "Test-0002-2015-09-16T140930Z",
+  "Subject": "Subject-Batch-From-File-1",
+  "Message": "{\r\n      \"id\":\"2dokCjxmQvUk2brjLuus1\",\r\n  \"subject\":\"omid_user_id\",\r\n    \"time\":\"2025-03-23T17:14:32+00:00\",\r\n      \"data\":{\r\n         \"name\":\"omid\",\r\n         \"age\":43,\r\n         \"nickname\":\"xaaxaax\",\r\n     \"prefered_channels\": [ \"EMAIL\" ]},\r\n      \"type\":\"user.profile_updated\"\r\n   }"
+}]
