@@ -1,33 +1,5 @@
 {
   "extends": "nx/presets/npm.json",
-  "targetDefaults": {
-    "cdk": {
-      "dependsOn": [
-        {
-          "projects": "@xaaxaax/prerequisite-app",
-          "target": "cdk",
-          "params": "forward",
-          "required": [
-            "projects",
-            "target"
-          ]
-        }
-      ]
-    },
-    "build": {
-      "dependsOn": [
-        {
-          "projects": "@xaaxaax/prerequisite-app",
-          "target": "build",
-          "params": "forward",
-          "required": [
-            "projects",
-            "target"
-          ]
-        }
-      ]
-    }
-  },
   "release": {
     "projects": [
       "*"

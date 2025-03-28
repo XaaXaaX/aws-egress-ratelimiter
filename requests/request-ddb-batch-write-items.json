@@ -1,0 +1,16 @@
+{
+  "<TABLENAME>": [
+    {
+        "PutRequest": {
+              "Item": {
+                  "pk": {"S": "omid"},
+                  "sk": {"S": "t0000"},
+                  "nickname": {"S": "omid"},
+                  "age": {"N": "30"},
+                  "prefered_channels": {"S": "EMAIL"},
+                  "status": {"S": "ACTIVE"}
+            }
+        }
+    }
+  ]
+}

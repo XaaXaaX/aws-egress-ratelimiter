@@ -1,0 +1,8 @@
+[
+  {
+    "Id": "Test-0002-2015-09-16T140930Z",
+    "MessageGroupId": "omid_user_id",
+    "MessageDeduplicationId": "2dokCjxmQvUk2brjLuus1",
+    "MessageBody": "{\r\n  \"id\":\"2dokCjxmQvUk2brjLuus1\",\r\n  \"subject\":\"omid_user_id\",\r\n    \"time\":\"2025-03-23T17:14:32+00:00\",\r\n      \"data\":{\r\n         \"name\":\"omid\",\r\n         \"age\":43,\r\n         \"nickname\":\"xaaxaax\",\r\n     \"prefered_channels\": [ \"EMAIL\" ]},\r\n      \"type\":\"user.profile_updated\"\r\n   }"
+  }
+]
