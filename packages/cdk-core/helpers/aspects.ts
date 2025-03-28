@@ -34,10 +34,10 @@ export class ApplyParameterStoreNamingPolicyAspect implements IAspect {
       const name = inspector.attributes['aws:cdk:cloudformation:props']['name'].toString();
       Annotations.of(node).addWarningV2(`${name}`, `Original Parameter Name` );
       if(name.startsWith(`/${this.variables.stage}/${this.variables.context}/`)) return;
-        const cleanedName = name
-            .replace(`${this.variables.stage}`, '')
-            .replace(`${this.variables.context}`, '')
-            .replace('//', '');
+      const cleanedName = name
+          .replace(`${this.variables.stage}`, '')
+          .replace(`${this.variables.context}`, '')
+          .replace('//', '');
       Annotations.of(node).addWarningV2(`${cleanedName}`, `Cleaned Original Parameter Name` );
       Annotations.of(node).addWarningV2(`/${this.variables.stage}/${this.variables.context}${cleanedName}`, `Final Parameter Name` );
       node.addPropertyOverride('Name', `/${this.variables.stage}/${this.variables.context}${cleanedName}` );
