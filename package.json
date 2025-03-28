@@ -24,7 +24,7 @@
     "aws-cdk-lib": "^2.186.0",
     "cdk-nag": "^2.35.57",
     "constructs": "^10.4.2",
-    "esbuild": "^0.24.2",
+    "esbuild": "^0.25.1",
     "nx": "^20.6.4",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
