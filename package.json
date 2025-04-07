@@ -16,21 +16,21 @@
     "affected:build": "nx affected --target=build --parallel=3"
   },
   "devDependencies": {
-    "@nx/js": "^20.6.4",
+    "@nx/js": "^20.7.1",
     "@types/aws-lambda": "^8.10.148",
-    "@types/node": "^22.13.14",
+    "@types/node": "^22.14.0",
     "@xaaxaax/cdk-core": "workspace:*",
-    "aws-cdk": "^2.1006.0",
-    "aws-cdk-lib": "^2.186.0",
-    "cdk-nag": "^2.35.59",
+    "aws-cdk": "^2.1007.0",
+    "aws-cdk-lib": "^2.188.0",
+    "cdk-nag": "^2.35.65",
     "constructs": "^10.4.2",
     "esbuild": "^0.25.2",
-    "nx": "^20.6.4",
+    "nx": "^20.7.1",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.28.0"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.0"
   },
   "dependencies": {
     "aws-embedded-metrics": "^4.2.0",
